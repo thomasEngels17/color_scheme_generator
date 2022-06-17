@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <form id="color-form">
+                    <label for="hex-code">Color</label>
+                    <input type="color" id="hex-code" name="head" value="#e66465">
+                    <!-- <label for"color-code">Enter Any Hex Value</label>
+                    <input id="color-code" type="text" placeholder="Color code"> -->
+                    <label for="mode">Mode:</label>
+                        <select id="mode" name="modes">
+                            <option value="monochrome">Monochrome</option>
+                            <option value="monochrome-dark">Monochrome-Dark</option>
+                            <option value="monochrome-light">Monochrome-Light</option>
+                            <option value="complement">Complement</option>
+                            <option value="analogic-complement">Analogic-Complement</option>
+                            <option value="triad">Triad</option>
+                            <option value="quad">Quad</option>
+                        </select>
+                    <button id="generate-color-scheme" type="submit"> Generate Colors</button>
+            </form>
+        </nav>
+        <div class="color-container">
+            <div id="color-0" class="color">
+                <h1>Color 1</h1>
+            </div>
+            <div id="color-1" class="color">
+                <h1>Color 2</h1>
+            </div>
+            <div id="color-2" class="color">
+                <h1>Color 3</h1>
+            </div>
+            <div id="color-3" class="color">
+                <h1>Color 4</h1>
+            </div>
+            <div id="color-4" class="color">
+                <h1>Color 5</h1>
+            </div>
+        </div>
+        <script src="../js/index.js"></script>
+    </body>
+</html>
